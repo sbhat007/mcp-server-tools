@@ -8,6 +8,8 @@ server_params = StdioServerParameters(
     args=["--directory", "/Users/shreenidhi.bhatibm.com/ai/mcp-server-tools", "run", "client_server.py"],
 )
 
+# sample local mcp client that connects to a local mcp server and calls tools, resources and prompts
+
 async def run():
     try:
         print("Starting stdio_client...")
