@@ -6,6 +6,7 @@ YOUR_API_KEY = ''
 mcp = FastMCP("Web Search")
 
 # using this tool, you can basically forward your request from MCP client to any other AI models!
+
 @mcp.tool()
 def perform_websearch(query: str) -> str:
     """

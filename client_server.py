@@ -2,6 +2,10 @@ from mcp.server.fastmcp import FastMCP
 
 mcp = FastMCP("Weather")
 
+# below tools are utilized by client_query.py and client_simple.py
+# usually these are exposed to mcp clients like claude or any other client via config.json
+# but here these are utilized programmatically by above two files
+
 @mcp.tool()
 def get_weather(location: str) -> str:
     """

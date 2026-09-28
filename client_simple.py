@@ -9,7 +9,7 @@ server_params = StdioServerParameters(
 )
 
 # sample local mcp client that connects to a local mcp server and calls tools, resources and prompts
-# we are creating our own mcp client instead of the claude
+# we are creating our own mcp client (stdio_client) instead of the claude
 
 async def run():
     try:

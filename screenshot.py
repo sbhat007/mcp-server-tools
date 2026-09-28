@@ -7,6 +7,8 @@ import io
 #create mcp server
 mcp = FastMCP("Screenshot demo")
 
+# takes screenshot using the pyautogui library
+
 @mcp.tool()
 def screenshot() -> Image:
     """

@@ -22,7 +22,8 @@ server_params = StdioServerParameters(
 # receives a query which is sent as a message to openai. we also specify the tools as inputs which are to be used based on this message
 # model will decide which tool to call among the list of tools for the given message. basically we are doing programmatically what we were doing
 # till now in claude desktop i.e., connect our tools to claude mcp via mcp.json
-# we are creating our own mcp client instead of the claude
+
+# openai is used as mcp client which takes input query and a set of tools which can be used to resolve the same query
 
 async def run(query):
     try:

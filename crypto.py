@@ -3,6 +3,8 @@ import requests
 
 mcp = FastMCP("Crypto")
 
+# retrieves price of given cryptocurrency from coingecko
+
 @mcp.tool()
 def get_crypto_value(crypto: str) -> str:
     """

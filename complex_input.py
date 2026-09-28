@@ -10,6 +10,9 @@ class Person(BaseModel):
     years_of_experience: int = Field(..., description="The number of years of experience")
     previous_address: List[str] = Field(..., description="List of previous addresses")
 
+# accepts Person object and adds it to a local file
+# just specify four strings as input and client will construct the object and call this tool!
+
 @mcp.tool()
 def add_person_to_member_database(person: Person) -> str:
     """
