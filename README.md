@@ -11,3 +11,51 @@ Examples of mcp tools that does below functions -
 
 How to use our own stdio_client as mcp client
 How to use openai as mcp client
+
+json for 1 - 
+~~~
+Don't bother as you need openAI key - go purchase it first!
+~~~
+json for 2 - 
+~~~
+    "screenshot": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "/Users/shreenidhi.bhatibm.com/ai/mcp-server-tools",
+        "mcp",
+        "run",
+        "screenshot.py"
+      ]
+    }
+~~~
+json for 3 - 
+~~~
+"Crypto": {
+      "command": "/opt/homebrew/bin/uv",
+      "args": [
+        "run",
+        "--directory",
+        "/Users/shreenidhi.bhatibm.com/ai/mcp-server-tools",
+        "mcp",
+        "run",
+        "crypto.py"
+      ]
+    }
+~~~
+json for 4 - 
+~~~
+"Complex-input": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "/Users/shreenidhi.bhatibm.com/ai/mcp-server-tools",
+        "mcp",
+        "run",
+        "complex_input.py"
+      ]
+    }
+~~~
+
