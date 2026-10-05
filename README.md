@@ -9,8 +9,8 @@ Examples of mcp tools that does below functions -
 @mcp.resource() examples - claude didn't support to test
 @mcp.prompt() examples - claude didn't support to test
 
-How to use our own stdio_client as mcp client
-How to use openai as mcp client
+How to bring up mcp servers locally with stdio_client w/o mcp client booting it up
+How to use openAI as mcp client - our own mcp client
 
 json for 1 - 
 ~~~
